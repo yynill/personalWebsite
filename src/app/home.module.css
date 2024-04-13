@@ -24,3 +24,7 @@
     left: 80%; 
     transform: translate(-50%, -50%);
 }
+
+.container{
+    min-height: 40vh;
+}

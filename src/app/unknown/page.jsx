@@ -4,6 +4,7 @@ import styles from './unknown.module.css';
 const unknown = () => {
   return (
     <div>
+      <div className={styles.container}>
         <div className={styles.spacing}></div>
 
         <div className={styles.heading}>
@@ -33,6 +34,7 @@ const unknown = () => {
             what is it like to be dead? <br />
             are the laws of physics the same everywhere? <br />
 
+        </div>
         </div>
     </div>
   )
