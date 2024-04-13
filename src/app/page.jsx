@@ -8,7 +8,7 @@ const Home = () => {
     <div>
      <h1 className={styles.title}>yvesnill</h1>
      <hr className={styles.home_hr}/>
-     <h2 className={styles.title2}>hackers n’ painters</h2>
+     <h2 className={styles.title2}>hackers & painters</h2>
 
 
      {/* <Image
