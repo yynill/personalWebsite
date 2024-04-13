@@ -1,0 +1,20 @@
+.spacing {
+    margin-bottom: 120px; 
+}
+
+.heading {
+    max-width: 600px;
+    margin: 0 auto; 
+    text-align: left; 
+}  
+
+.questions{
+    max-width: 600px;
+    margin: 0 auto; 
+    text-align: left; 
+}
+
+.bold {
+    font-weight: bold;
+}
+

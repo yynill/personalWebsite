@@ -1,13 +1,7 @@
-.container {
-    padding: 40px; 
-    width: 90%;
-    margin: auto;
-}
-  
 .title {
     font-size: 5em; 
     text-align: left; 
-    margin: 400px 70px -20px 70px;
+    margin: 400px 0 -20px 0;
 }
   
 .home_hr {
@@ -15,15 +9,13 @@
     color: black;
     background-color: black;
     border: none;
-    margin-top: 0;
-    margin-bottom: 0; /* Adjust as needed */
-    margin: 0 70px;
+    margin: 0;
 }
   
 .title2 {
     font-size: 1.8rem;
     font-weight: 500;
-    margin: -10px 70px 0 70px;
+    margin: -10px 0 0 0;
 }
 
 .stickman{
