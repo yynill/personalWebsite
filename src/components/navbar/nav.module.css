@@ -1,0 +1,60 @@
+/* home.module.css */
+  
+.navbar {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 2em; 
+    font-size: 1em; 
+    list-style: none;
+}
+  
+.navLink {
+    text-decoration: none; 
+    font-weight: bolder;
+    padding: 0 5px;
+    color: black; 
+    margin: 1em; 
+    font-family: 'Arial', sans-serif; 
+    transition: color 0.3s ease; 
+}
+  
+.navLink:hover {
+    color: #555; 
+}
+
+.menuIcon {
+    display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .nav_left {
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background-color: white;
+      display: none;
+      flex-direction: column;
+      align-items: start;
+      padding-top: 60px; 
+    }
+  
+    .menuIcon {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .menuIcon span {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      transition: 0.4s;
+      background-color: black;
+    }
+  }
+    
+  /* Hide the menu icon in larger screens */
